@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+div.header-1{
+    background-color: black;
+    color:white
+}
+
+div.header-2, span.tit-comedero{
+    background-color: #F0A83E;;
+    color:white;
+}
+
+span.tit-comedero{
+    align-self: center;
+}
+
+h1.titulo{
+    color:#3C2313;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.sec-imagen{
+    background-image: url("../img/bowl.png");
+    background-position: center;
+    background-size: cover;
+    height: 408px;
+    text-align: center;
+}
+
+h2.product-info{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+p.options{
+    color:#666666;
+}
+
+.product-info{
+    color:#3C2313
+}
+
+.product-price{
+    color:#F0A83E;
+}
+
+footer section.info{
+    background-color: #3C2313;
+}
+
+footer section p.item-title{
+    color:white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+footer section p.item-info{
+    color:#666666;
+}
+
+footer section.derechos{
+    background-color: #F0A83E;;
+    color:white;
+    text-align: center;
+}
