@@ -61,26 +61,55 @@
                 <p class="product-price">$650</p>    
             </div>          
         </section>
-        <section class="contact-us">
+        <form class="contact-us">
             <p>Contáctanos</p>
-            <div class="buttons">
-
+            <textbox class="contactInfo">Nombre y Apellido</textbox>
+            <textbox class="contactInfo">Ingresa tu correo electrónico</textbox>
+            <textbox class="contactInfo">Teléfono</textbox>
+            <div>
+                <button class="buttonReset">Resetear</button>
+                <button class="buttonSend">Enviar</button>
             </div>
-        </section>    
+        </form>
+        <div class="suscribe">
+            <img src="img/enviar-correo.png" alt="Carta de suscripción">
+            <span>Suscríbete para más novedades</span>
+            <form action="" class="formSuscription">
+                <input type="text" name="correo" placeholder="Ingresá tu correo electrónico">
+                <button class="buttonSuscribe">Suscribirme</button>
+            </form>
+
+        </div>    
     </main>
     <footer>
-        <section class="info"> 
-            <img src="img/icons/location.png" alt="Ubicación">
-            <p class="item-title">Localidad:</p>
-            <p class="item-info">Calle - provincia</p>
-            <img src="img/icons/telephone.png" alt="Teléfono de contacto">
-            <p class="item-title">Número de teléfono:</p>
-            <p class="item-info">15-111-111-111</p>
-            <img src="img/icons/mail.png" alt="Correo electrónico">
-            <p class="item-title">Correo electrónico:</p>
-            <p class="item-info">sarasa@msn.com</p>
-            <img src="img/logo-orange.png" alt="Este es el logo">
-        </section>
+        <section class="links">
+            <div class="info">
+                <article class="location">
+                    <img src="img/icons/location.png" alt="Ubicación">
+                    <div>
+                        <p class="item-title">Localidad:</p>
+                        <p class="item-info">Calle - provincia</p>
+                    </div>              
+                </article>
+                <article class="telephone">
+                    <img src="img/icons/telephone.png" alt="Teléfono de contacto">
+                    <div>
+                        <p class="item-title">Número de teléfono:</p>
+                        <p class="item-info">15-111-111-111</p>
+                    </div>  
+                </article>
+                <article class="e-mail">
+                    <img src="img/icons/mail.png" alt="Correo electrónico">
+                    <div>
+                        <p class="item-title">Correo electrónico:</p>
+                        <p class="item-info">sarasa@msn.com</p>
+                    </div>                
+                </article>
+            </div>
+            <!-- <div class="logo">
+                <img src="img/logo-orange.png" alt="Este es el logo">                     
+            </div> -->
+        </section>       
         <section class="derechos">
             <p>Todos los derechos reservados Front End</p>
         </section>
